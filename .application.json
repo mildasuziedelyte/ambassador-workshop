@@ -1,0 +1,21 @@
+{
+  "$schema": "target/schemas/.application.schema.json",
+  "moduleId": "MILDA_AMBASSADOR",
+  "appDefinitionId": "319aa327-539d-4a3d-bff4-1cef299f4120",
+  "isCoreService": true,
+  "routeNamespace": "milda-ambassador",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://daf7eecc82d44d44a0798059cc96a8ee@sentry.wixpress.com/3166",
+    "id": "daf7eecc82d44d44a0798059cc96a8ee",
+    "projectName": "milda-ambassador",
+    "teamName": "milda-ambassador-workshop",
+    "errorMonitor": true
+  },
+  "experiments": {
+    "centralized": true
+  },
+  "enabledByExperiments": ["specs.infra.yoshi-bm.ChangeMe"]
+}

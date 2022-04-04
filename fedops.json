@@ -1,0 +1,21 @@
+[
+  {
+    "appName": "milda-ambassador.pages.index",
+    "notifications": {
+      "slack_channels": [
+        "milda-ambassador-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "milda-ambassador",
+      "business-manager"
+    ],
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-319aa327-539d-4a3d-bff4-1cef299f4120"
+      ]
+    },
+    "ignore_first_request_roundtrip": true
+  }
+]
